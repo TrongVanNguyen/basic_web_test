@@ -1,0 +1,52 @@
+/********** Base styles **********/
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.row {
+	width: 100%;
+}
+
+h2 {
+	margin-bottom: 42px;
+}
+/********** End Base styles **********/
+#header-nav {
+	background: #cacaca;
+	border-radius: 0;
+	border-width: 3px;
+	border-color: black;
+}
+
+.navbar-header > .navbar-brand {
+	font-size: 2em;
+	color: #c00fee;
+}
+
+.navbar-header > .navbar-toggle > .icon-bar {
+	background-color: #c00fee;
+}
+
+#nav-list {
+	/*margin: 0px auto;*/
+	text-align: center;
+	font-size: 1.5em;
+	color: #c00fee;
+}
+
+#main-menu {
+	margin-bottom: 50px;
+}
+
+.hidden-box {
+	background: #cacaca;
+	margin: 5px;
+	padding: 5px;
+}
+
+.panel-footer {
+	margin-bottom: 30px;
+	border: 0;
+	background-color: #fff;
+}
